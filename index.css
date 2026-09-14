@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-family: "poppins", sans-serif;
+}
+
+.logo-site{
+    position: absolute;
+    width: auto;
+    height: 53px;
+    top: 51px;
+    left: 1117px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    direction: ltr;
+}
+.logo-site h1{
+    font-size: 35px;
+    font-weight: 700;
+    color: #313131;
+    margin-left: 12px;
+}
+.image{
+    position: absolute;
+    top: 104px;
+    left: 104px;
+}
+form{
+    width: 640px;
+    height: 678px;
+    position: absolute;
+    top: 204px;
+    left: 696px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+form .text{
+    width: 100%;
+    height: 100px;
+    direction: ltr;
+}
+form .text p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #313131;
+}
+form .text h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: #313131;
+    margin: 0;
+}
+form .inputs{
+    width: 100%;
+    height: 530px;
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+    margin-top: 10px;
+}
+form .inputs .inps{
+    width: 100%;
+    height: 344px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+}
+form .inputs .inps .dlinp{
+    width: 100%;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+}
+form .inputs .inps .dlinp .inp{
+    width: 308px;
+    height: 56px;
+    border: 1px solid #79747E;
+    border-radius: 5px;
+    position: relative;
+    direction: ltr;
+}
+form .inputs .inps .dlinp .inp span{
+    position: absolute;
+    transform: translate(25%, -60%);
+    padding: 0 20px;
+    background-color: #ffffff;
+}
+form .inputs .inps .dlinp .inp .span2{
+    position: absolute;
+    transform: translate(20%, -60%);
+    padding: 0 20px;
+    background-color: #ffffff;
+}
+form .inputs .inps .dlinp .inp input{
+    width: auto;
+    height: 45px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 3px;
+    background-color: rgba(255, 228, 196, 0);
+    left: 10px;
+}
+
+form .inputs .inps .inp{
+    width: 100%;
+    height: 52px;
+    border-radius: 4px;
+    direction: ltr;
+    border: 1px solid #79747E;
+    position: relative;
+}
+
+form .inputs .inps .inp input{
+    width: 90%;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    border: none;
+    outline: none;
+    left: 15px;
+    font-size: 18px;
+    background-color: rgba(255, 228, 196, 0);
+}
+form .inputs .inps  .inp span{
+    position: absolute;
+    transform: translate(25%, -60%);
+    padding: 0 20px;
+    background-color: #ffffff;
+}
+form .inputs .inps  .inp img{
+    position: absolute;
+    right: 12px;
+    top: 14px;
+}
+form .inputs .inps  .inp .span1{
+    position: absolute;
+    transform: translate(13%, -60%);
+    padding: 0 20px;
+    background-color: #ffffff;
+}
+form .inputs .inps  .inp .span3{
+    transform: translate(20%, -60%);
+
+}
+form .inputs .inps .inp-check{
+    width: auto;
+    height: 24px;
+    direction: ltr;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    bottom: 170px;
+}
+form .inputs .inps .inp-check input{
+    width: 24px;
+    height: 24px;
+    border: 1px solid black;
+    left: -4px;
+    margin-right: 10px;
+}
+form .inputs .inps .inp-check p{
+    font-size: 14px;
+    font-weight: 600;
+    color: #313131;
+}
+form .inputs .inps .inp-check p span{
+    color: #FF8682;
+
+}
+form .inputs .btns{
+    width: 100%;
+    height: 85px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+}
+form .inputs .btns button{
+    height: 48px;
+    background-color: #515DEF;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    color: #ffffff;
+    border-radius: 4px;
+}
+form .inputs .btns p{
+    color: #313131;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+form .inputs .btns p span{
+    color: #FF8682;
+}
+form .inputs .line{
+    width: 100%;
+    height: 25px;
+    border-bottom: 1px solid #313131;
+}
+form .inputs .line span{
+    position: absolute;
+    transform: translate(-210%, 46%);
+    padding: 0 0px;
+    background-color: #ffffff;
+    color: #313131;
+}
